@@ -6,7 +6,7 @@ import '../models/api_model.dart';
 import '../models/user_model.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://agroview.orbneil.com/api';
+  static const String baseUrl = 'http://localhost:3055/api';
   late Dio dio;
   String? _token;
 
